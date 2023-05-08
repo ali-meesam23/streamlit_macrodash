@@ -14,7 +14,7 @@ client = RESTClient(os.getenv("POLYGON_API_KEY"))
 def main():
     # Add sidebar
     st.sidebar.title("Sidebar")
-    selected_widget = st.sidebar.selectbox("Select Page", ["Outlook", "Sector Trends", "Widget 3"])
+    selected_widget = st.sidebar.selectbox("Select Page", ["Outlook", "Sector Trends"])
     if selected_widget == "Outlook":
         # Custom CSS for responsiveness
         st.markdown(
@@ -33,6 +33,7 @@ def main():
         create_mini_chart_board()
         st.write(" ")
         get_idx_news()
+
     elif selected_widget == 'Sector Trends':
         data_dict = {}
         tickers = ['SPY','QQQ','XLE','XLF','XLK']
@@ -45,7 +46,8 @@ def main():
             # GET STATS
             stats_dict[ticker] = get_stats(ext_df)
             # PLOT
-            print(plot(ext_df,ticker).show())
+            st.plotly_chart(plot(ext_df,ticker))
+
 
 if __name__ == "__main__":
     main()

@@ -1,7 +1,6 @@
 # GET DATA
 import datetime
 import pandas as pd
-import polygon as pg
 import os
 import numpy as np
 from scipy.signal import argrelextrema
@@ -103,7 +102,7 @@ def plot(df,ticker,day_range=None):
     # fig.layout.title=f'{ticker}'
 
     # Plot OHLC on 1st row
-    fig.add_trace(go.Candlestick(x=_df.index,open=_df.open,high=_df.high, low=_df.low, close=_df.close, name=time_frame),
+    fig.add_trace(go.Candlestick(x=_df.index,open=_df.open,high=_df.high, low=_df.low, close=_df.close, name='1D'),
                 row=1,col=1)
 
 
