@@ -2,6 +2,7 @@ from datetime import datetime
 import pandas as pd
 from polygon import RESTClient
 import os
+import streamlit as st
 
 def smalL_chart(ticker='EURUSD', exch='FX'):
     ticker = ticker.upper()
@@ -31,7 +32,7 @@ def smalL_chart(ticker='EURUSD', exch='FX'):
 
 
 def get_candles(ticker='SPY', multiplier=1, timespan="day", from_="2022-01-01", to=""):
-    client =RESTClient(os.getenv("POLYGON_API_KEY"))
+    client =RESTClient(st.secrets["POLYGON_API_KEY"])
     if to=="":
         to = datetime.now().strftime("%Y-%m-%d")
     bars = client.get_aggs(ticker=ticker, multiplier=1, timespan="day", from_=from_, to=to)
