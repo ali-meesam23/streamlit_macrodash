@@ -28,7 +28,7 @@ def create_mini_chart_board():
 
     with col3:
         components.html(
-            smalL_chart('ES1!','CME_MINI'), height=col_height, width=col_width
+            smalL_chart('SPXUSD','FOREXCOM'), height=col_height, width=col_width
         )
 
     col1, _1, col2, _2, col3 = st.columns(5)
@@ -72,7 +72,7 @@ def get_idx_news():
     <!-- TradingView Widget END -->"""
 
     components.html(
-            news, height=800, width=900
+            news, height=400, width=900
     )
 
     # Custom CSS for responsiveness
@@ -88,3 +88,25 @@ def get_idx_news():
         """,
         unsafe_allow_html=True
     )
+
+
+def macro_calendar():
+    widget = """<!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/economic-calendar/" rel="noopener" target="_blank"><span class="blue-text">Economic calendar</span></a> by TradingView</div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+        {
+        "colorTheme": "dark",
+        "isTransparent": false,
+        "width": "870",
+        "height": "790",
+        "locale": "en",
+        "importanceFilter": "-1,0,1",
+        "currencyFilter": "USD,CNY"
+        }
+        </script>
+        </div>
+        <!-- TradingView Widget END -->"""
+    components.html(
+        widget, height=800, width=900)

@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import streamlit.components.v1 as components
 
-from outlook import create_mini_chart_board, get_idx_news
+from outlook import create_mini_chart_board, get_idx_news, macro_calendar
 from helper import get_candles
 from trending import *
 from polygon import RESTClient
@@ -10,7 +10,43 @@ from datetime import datetime, timedelta
 
 client = RESTClient(st.secrets["POLYGON_API_KEY"])
 
-
+tape_widget = """<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "US 100"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR/USD"
+    },
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "Bitcoin"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "Ethereum"
+    }
+  ],
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "showSymbolLogo": true,
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->"""
+components.html(tape_widget, width=900)
 
 def main():
     # Add sidebar
@@ -34,6 +70,8 @@ def main():
         create_mini_chart_board()
         st.write(" ")
         get_idx_news()
+        st.write(" ")
+        macro_calendar()
 
     elif selected_widget == 'Sector Trends':
         data_dict = {}
