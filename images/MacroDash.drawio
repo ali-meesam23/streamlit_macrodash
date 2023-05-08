@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net" modified="2023-05-08T06:07:31.985Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="YixbJ_a8eXyv-GaqFhTG" version="21.2.9" type="device" pages="2">
+  <diagram name="Overview" id="OXtYtzhaze62F8T3RwCG">
+    <mxGraphModel dx="984" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-1" value="TradingView Widgets" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="710" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-3" value="Mini 3m charts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-4" value="Dollar Index" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-5" value="WTI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="210" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-6" value="SPY" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="210" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-7" value="10Y Yeild" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="350" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-8" value="Crypto Total Cap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="350" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-9" value="VIX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="350" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-10" value="TradingView Indices news headlines" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="510" width="710" height="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1wcX3AmNJiGZEZl-vaPc" name="Trending">
+    <mxGraphModel dx="984" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

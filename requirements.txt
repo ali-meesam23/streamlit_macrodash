@@ -1,0 +1,5 @@
+polygon-api-client
+pandas
+numpy
+plotly
+scipy
