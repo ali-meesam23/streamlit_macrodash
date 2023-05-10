@@ -1,43 +1,121 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T06:07:31.985Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="YixbJ_a8eXyv-GaqFhTG" version="21.2.9" type="device" pages="2">
-  <diagram name="Overview" id="OXtYtzhaze62F8T3RwCG">
-    <mxGraphModel dx="984" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-05-10T21:34:10.204Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="bgEWnvvau_P7Ww1ncvEa" version="21.2.9" type="device" pages="4">
+  <diagram id="3NLQmYto6awIMGyS7PXP" name="Design">
+    <mxGraphModel dx="1406" dy="954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mjQYdN1LqP7KqYdfl8ot-1" value="TradingView Widgets" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="30" width="190" height="120" as="geometry" />
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-1" value="Design + Host" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.analyticsvidhya.com/wp-content/uploads/2021/06/39595st.jpeg;" vertex="1" parent="1">
+          <mxGeometry x="920" y="490" width="155" height="80.99" as="geometry" />
         </mxCell>
-        <mxCell id="mjQYdN1LqP7KqYdfl8ot-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="180" width="710" height="320" as="geometry" />
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xe1lQLquwW5B9PXPlnQI-2" target="Xe1lQLquwW5B9PXPlnQI-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mjQYdN1LqP7KqYdfl8ot-3" value="Mini 3m charts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="150" width="100" height="30" as="geometry" />
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.tradingview.com/static/images/logo-preview.png;" vertex="1" parent="1">
+          <mxGeometry x="80" y="79.99999999999997" width="100" height="52.5" as="geometry" />
         </mxCell>
-        <mxCell id="mjQYdN1LqP7KqYdfl8ot-4" value="Dollar Index" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="210" width="210" height="120" as="geometry" />
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-3" value="Widgets" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flatforlinux/128/15-Dashboard%20.png" vertex="1" parent="1">
+          <mxGeometry x="280" y="77.25" width="58" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="mjQYdN1LqP7KqYdfl8ot-5" value="WTI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="210" width="210" height="120" as="geometry" />
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Xe1lQLquwW5B9PXPlnQI-3" target="Xe1lQLquwW5B9PXPlnQI-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="539.9999999999998" y="106.28571428571445" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="mjQYdN1LqP7KqYdfl8ot-6" value="SPY" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="210" width="210" height="120" as="geometry" />
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-8" value="Outlook" style="swimlane;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="530" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="mjQYdN1LqP7KqYdfl8ot-7" value="10Y Yeild" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="350" width="210" height="120" as="geometry" />
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xe1lQLquwW5B9PXPlnQI-12" target="Xe1lQLquwW5B9PXPlnQI-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mjQYdN1LqP7KqYdfl8ot-8" value="Crypto Total Cap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="350" width="210" height="120" as="geometry" />
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-12" value="REST API" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.iconscout.com/icon/free/png-256/free-polygon-logo-colored-5728878-4816868.png;" vertex="1" parent="1">
+          <mxGeometry x="80" y="350.76" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="mjQYdN1LqP7KqYdfl8ot-9" value="VIX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="350" width="210" height="120" as="geometry" />
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Xe1lQLquwW5B9PXPlnQI-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="334" y="393.76" as="sourcePoint" />
+            <mxPoint x="380" y="400.2460606060606" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="mjQYdN1LqP7KqYdfl8ot-10" value="TradingView Indices news headlines" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="510" width="710" height="320" as="geometry" />
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-14" value="OHLC Data" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.thenounproject.com/png/4398698-200.png;" vertex="1" parent="1">
+          <mxGeometry x="204" y="330.76" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-17" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://image.pngaaa.com/125/1971125-middle.png;" vertex="1" parent="1">
+          <mxGeometry x="410" y="330.76000000000005" width="114" height="44.08" as="geometry" />
+        </mxCell>
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-18" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://p.kindpng.com/picc/s/713-7136289_rougier-numpy-logo-name-below-02-python-numpy.png;" vertex="1" parent="1">
+          <mxGeometry x="420" y="397.71999999999997" width="56.03" height="70.04" as="geometry" />
+        </mxCell>
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="386" y="320.71999999999997" width="20" height="147.04" as="geometry" />
+        </mxCell>
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xe1lQLquwW5B9PXPlnQI-20" target="Xe1lQLquwW5B9PXPlnQI-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-20" value="Trend Identification" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1454/1454976.png;" vertex="1" parent="1">
+          <mxGeometry x="570" y="363.01" width="65.5" height="65.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="530" y="322.23999999999995" width="20" height="147.04" as="geometry" />
+        </mxCell>
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xe1lQLquwW5B9PXPlnQI-23" target="Xe1lQLquwW5B9PXPlnQI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-23" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/8/8a/Plotly-logo.png;" vertex="1" parent="1">
+          <mxGeometry x="696" y="375.76" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xe1lQLquwW5B9PXPlnQI-29" value="Trend Detection (Major Tickers / Custom Tickers)" style="swimlane;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="282.8" width="820" height="247.2" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="1wcX3AmNJiGZEZl-vaPc" name="Trending">
+  <diagram name="Outlook" id="OXtYtzhaze62F8T3RwCG">
+    <mxGraphModel dx="984" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="180" width="710" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-3" value="Mini 3m charts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="150" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-4" value="Dollar Index" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="210" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-5" value="WTI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="210" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-6" value="SPY" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="210" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-7" value="10Y Yeild" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="350" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-8" value="Crypto Total Cap" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="350" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-9" value="VIX" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="350" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQYdN1LqP7KqYdfl8ot-10" value="TradingView Indices news headlines" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="510" width="710" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="HtIqrU1xyDTxWLq0gX-e-1" value="Economic Calendar US, China" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="840" width="710" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1wcX3AmNJiGZEZl-vaPc" name="Trending-Major">
+    <mxGraphModel dx="984" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Q5M29SZs0Z0hgKjFF5i6" name="Custom Trending">
     <mxGraphModel dx="984" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
