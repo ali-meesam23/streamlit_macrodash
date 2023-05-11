@@ -30,8 +30,9 @@ def smalL_chart(ticker='EURUSD', exch='FX'):
             <!-- TradingView Widget END -->
             """
 
-
+st.cache_data
 def get_candles(ticker='SPY', multiplier=1, timespan="day", from_="2022-01-01", to=""):
+    print(f"PLYGON: Requesting data {ticker}")
     client =RESTClient(st.secrets["POLYGON_API_KEY"])
     if to=="":
         to = datetime.now().strftime("%Y-%m-%d")
