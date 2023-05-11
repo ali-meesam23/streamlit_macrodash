@@ -7,7 +7,7 @@ from helper import get_candles
 from trending import *
 from polygon import RESTClient
 from datetime import datetime, timedelta
-from USYieldCurves import MacroIndicators
+from USMacroData import MacroIndicators
 
 client = RESTClient(st.secrets["POLYGON_API_KEY"])
 macroindicators = MacroIndicators()
@@ -56,6 +56,22 @@ def main():
   st.sidebar.title("Sidebar")
   selected_widget = st.sidebar.selectbox("Select Page", ["Outlook", "Sector Trends",'Ticker Trend','Yield Curve (comparison)','Yield Curve (history)'])
   if selected_widget == "Outlook":
+      
+      st.write("MacroEconomic Data:")
+      COLS = list(macroindicators._latest_data[2].columns.tolist())
+      rows= 3
+      i = 0
+      for _ in range(rows):
+        _C = st.columns(len(COLS)//rows)
+        for col in _C:  
+          with col:
+          # for c in COLS:
+            val = str(round(macroindicators._latest_data[0][COLS[i]],2))
+            change = str(round(macroindicators._latest_data[1][COLS[i]],2))
+            st.metric(label=COLS[i], value=val, delta=change+"%")
+          i+=1
+          
+
       # Custom CSS for responsiveness
       st.markdown(
           """
