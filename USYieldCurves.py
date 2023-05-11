@@ -7,7 +7,7 @@ import plotly.express as px
 @st.cache_resource
 class MacroIndicators:
     def __init__(self):
-        self.KEY = os.getenv('ALPHA_PRO')
+        self.KEY = os.getenv('ALPHA_PRO') or st.secrets['ALPHA_PRO']
 
         self.curves = self.yield_curve(interval='monthly')
     
