@@ -16,3 +16,10 @@ Visit the following link to explore the MacroEconomic Dashboard App: https://mac
 
 ## Pattern:
 ![alt text](images/MacroDash.png)
+
+## Screenshots
+![alt text](images/1.png)
+![alt text](images/2.png)
+![alt text](images/3.png)
+![alt text](images/4.png)
+![alt text](images/5.png)
