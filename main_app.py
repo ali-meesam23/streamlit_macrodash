@@ -9,7 +9,7 @@ from polygon import RESTClient
 from datetime import datetime, timedelta
 from USYieldCurves import MacroIndicators
 
-# client = RESTClient(st.secrets["POLYGON_API_KEY"])
+client = RESTClient(st.secrets["POLYGON_API_KEY"])
 macroindicators = MacroIndicators()
 
 

@@ -134,5 +134,5 @@ def main():
     st.plotly_chart(fig)
    
 
-if __name__=='__main__':
-    main()
+# if __name__=='__main__':
+#     main()
